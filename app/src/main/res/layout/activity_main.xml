@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saelyne.fasttp2_camera.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="752dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/text_cameraApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera App"
+            android:textSize="50px"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"/>
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:layout_below="@id/text_cameraApp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/start_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/videoView"
+            android:text=" Start Recording "
+            android:textSize="50px"
+            android:textColor="@color/white"
+            android:background="@color/teal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

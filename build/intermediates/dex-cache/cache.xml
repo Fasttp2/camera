@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Saelyne/Documents/8/CS409/camera/Fasttp2_Camera/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="817ac56ac3ce14c10690701f66799ccec4c83f3a">
+        <dex dex="/Users/Saelyne/Documents/8/CS409/camera/Fasttp2_Camera/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7f06f3b7890776c8fa71b8c6b4e05cad7faeb6a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saelyne/Documents/8/CS409/camera/Fasttp2_Camera/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/Saelyne/Documents/8/CS409/camera/Fasttp2_Camera/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_514d42c6fdcd4b551e3c14e4beb4f970be99dfcb/classes.dex" />
+    </item>
+
+</items>
